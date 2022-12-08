@@ -1,4 +1,6 @@
 # Viacheslav Parfenov
+<img src="https://i.imgur.com/8GWVrxI.jpg" alt="this is me" width="120"/>
+
 ## Contacts
 **Phone:** +7 992 004-48-62\
 **Telegram:** [vparf](https://t.me/vparf)\
