@@ -23,4 +23,19 @@ function multiply(a, b){
 }
 ```
 
+## Work Experience
+**SKB Kontur**\
+**QA Intern** - (June 2021 - August 2021)
+- Test Web application for accounting work with document flow and sending reports.
+- Developed and executed Test Cases.
+- Created mind maps of tested functionality.
+- Reported software bugs using YouTrack.
+- Automated tests using Selenium Webdriver framework.
+- Participated in team meetings.
 
+## Education
+2022 &emsp; Bachelor of Software Engineering: Ural Federal University, Russia.
+
+## Languages
+- **English** - pre-intermediate.
+- **Russian** - native.
