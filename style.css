@@ -68,31 +68,41 @@ p {
     border: 1px solid #7127BA;
 }
 
-.main-section-block h3 {
+.main-section-block h2 {
     font-size: 150%;
     letter-spacing: 2px;
     margin-bottom: 20px;
 }
 
-:target {
-    /*background-color: red;*/
-}
+/*:target {
+    background-color: red;
+}*/
 
 .skills-list {
     columns: 2;
     font-size: 18px;
     letter-spacing: 1px;
     padding: 0 20px;
+    line-height: 1.5;
 }
 
 .skill {
     font-weight: bold;
 }
 
-.skills-list li::marker {
+::marker {
     content: "> ";
     color: #9348de;
     font-weight: bold;
     font-size: 23px;
+}
+
+.code-example {
+    background-color: #11071F;
+}
+
+pre {
+    padding: 10px;
+    font-size: 18px;
 }
 
