@@ -6,16 +6,31 @@
 
 body {
     font-family: 'Roboto', sans-serif;
-    margin: 0;
+    background-color: #11071F;
+    color: #ffffff;
+}
+
+section {
+    /*border: 1px solid red;*/
 }
 
 a {
-    color: #ffffff;
     text-decoration: none;
+    color: #ffffff;
+}
+
+p {
+    font-size: 18px;
+    letter-spacing: 1px;
 }
 
 .header {
     background-color: #1A0B2E;
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
 }
 
 .nav-list {
@@ -28,4 +43,32 @@ a {
     display: inline;
     padding: 0px 20px;
     font-size: 20px;
+}
+
+.photo-section {
+    text-align: center;
+}
+
+.photo-section img {
+    margin: 30px 0px;
+    border-radius: 50%;
+}
+
+.name h1 {
+    font-size: 250%;
+    letter-spacing: 2px;
+}
+
+.main-section-block {
+    margin: 0 20%;
+    padding: 30px;
+    background: linear-gradient(130deg, #1A0B2E80 20%, #25104380 65%, #30115C80 90%, #38126D80 105%, #26104580 160%, #19063480 180%);
+    border-radius: 30px;
+    border: 1px solid #7127BA;
+}
+
+.main-section-block h3 {
+    font-size: 150%;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
 }
