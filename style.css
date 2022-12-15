@@ -11,7 +11,7 @@ body {
 }
 
 section {
-    /*border: 1px solid red;*/
+    border: 1px solid red;
 }
 
 a {
@@ -22,6 +22,7 @@ a {
 p {
     font-size: 18px;
     letter-spacing: 1px;
+    line-height: 1.5;
 }
 
 .header {
@@ -72,3 +73,26 @@ p {
     letter-spacing: 2px;
     margin-bottom: 20px;
 }
+
+:target {
+    /*background-color: red;*/
+}
+
+.skills-list {
+    columns: 2;
+    font-size: 18px;
+    letter-spacing: 1px;
+    padding: 0 20px;
+}
+
+.skill {
+    font-weight: bold;
+}
+
+.skills-list li::marker {
+    content: "> ";
+    color: #9348de;
+    font-weight: bold;
+    font-size: 23px;
+}
+
