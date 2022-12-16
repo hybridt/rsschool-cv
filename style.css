@@ -86,7 +86,7 @@ p {
     line-height: 1.5;
 }
 
-.skill {
+.bold-style {
     font-weight: bold;
 }
 
@@ -106,3 +106,9 @@ pre {
     font-size: 18px;
 }
 
+.experience-summary {
+    font-size: 18px;
+    letter-spacing: 1px;
+    padding: 0 20px;
+    line-height: 1.5;
+}
