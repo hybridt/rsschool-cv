@@ -145,15 +145,15 @@ pre {
     line-height: 1.5;
 }
 
-.contacts-list li::marker {
-    content: none;
-}
-
 .contacts-list svg {
     position: relative;
     top: 5px;
     width: 25px;
     fill: #fff;
+}
+
+.contact-item::marker {
+    content: none;
 }
 
 .contact-item:nth-child(odd) {
@@ -166,4 +166,24 @@ pre {
 
 .contact-link:hover {
     text-decoration: underline;
+}
+
+.footer {
+    margin: 30px 0 0 0;
+    background-color: #1A0B2E;
+    text-align: center;
+}
+
+.info {
+    display: inline-block;
+    padding: 15px 0;
+}
+
+.gh-link:hover {
+    color: #9348de;
+}
+
+.rsschool-logo {
+    width: 25%;
+    filter: invert(100%);
 }
