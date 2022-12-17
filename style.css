@@ -1,3 +1,189 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
 body {
-    background-color: beige;
+    font-family: 'Roboto', sans-serif;
+    background-color: #11071F;
+    color: #ffffff;
+}
+
+section {
+    margin: 30px 0 0 0;
+}
+
+a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+p {
+    font-size: 18px;
+    letter-spacing: 1px;
+    line-height: 1.5;
+}
+
+.header {
+    background-color: #1A0B2E;
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.nav-list {
+    list-style-type: none;
+    text-align: center;
+    padding: 15px;
+}
+
+.list-item {
+    display: inline;
+    padding: 0px 20px;
+    font-size: 20px;
+}
+
+.photo-section {
+    text-align: center;
+}
+
+.photo-section img {
+    margin: 0 0 30px 0;
+    border-radius: 50%;
+}
+
+.name h1 {
+    font-size: 250%;
+    letter-spacing: 2px;
+}
+
+.main-section-block {
+    margin: 0 20%;
+    padding: 30px;
+    background: linear-gradient(130deg, #1A0B2E80 20%, #25104380 65%, #30115C80 90%, #38126D80 105%, #26104580 160%, #19063480 180%);
+    border-radius: 30px;
+    border: 1px solid #7127BA;
+}
+
+.main-section-block h2 {
+    font-size: 150%;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+}
+
+/*:target {
+    background-color: red;
+}*/
+
+.skills-list {
+    columns: 2;
+    font-size: 18px;
+    letter-spacing: 1px;
+    padding: 0 20px;
+    line-height: 1.5;
+}
+
+.bold-style {
+    font-weight: bold;
+}
+
+::marker {
+    content: "> ";
+    color: #9348de;
+    font-weight: bold;
+    font-size: 23px;
+}
+
+.code-example {
+    background-color: #11071F;
+}
+
+pre {
+    padding: 10px;
+    font-size: 18px;
+}
+
+.experience-summary {
+    font-size: 18px;
+    letter-spacing: 1px;
+    padding: 0 20px;
+    line-height: 1.5;
+}
+
+.project {
+    display: inline-block;
+    width: 30%;
+    text-align: center;
+}
+
+.project:nth-child(3) {
+    margin: 0 4%;
+}
+
+.project img {
+    max-width: 100%;
+    filter: brightness(50%);
+    height: 150px;
+}
+
+.project-img:hover {
+    filter: brightness(100%);
+}
+
+.edu-font {
+    color: #9348de;
+    font-weight: bold;
+}
+
+.contacts-list {
+    columns: 2;
+    font-size: 18px;
+    letter-spacing: 1px;
+    line-height: 1.5;
+}
+
+.contacts-list svg {
+    position: relative;
+    top: 5px;
+    width: 25px;
+    fill: #fff;
+}
+
+.contact-item::marker {
+    content: none;
+}
+
+.contact-item:nth-child(odd) {
+    margin-bottom: 15px;
+}
+
+.contact-link {
+    color: #9348de;
+}
+
+.contact-link:hover {
+    text-decoration: underline;
+}
+
+.footer {
+    margin: 30px 0 0 0;
+    background-color: #1A0B2E;
+    text-align: center;
+}
+
+.info {
+    display: inline-block;
+    padding: 15px 0;
+}
+
+.gh-link:hover {
+    color: #9348de;
+}
+
+.rsschool-logo {
+    width: 25%;
+    filter: invert(100%);
 }
