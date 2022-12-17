@@ -137,3 +137,33 @@ pre {
     color: #9348de;
     font-weight: bold;
 }
+
+.contacts-list {
+    columns: 2;
+    font-size: 18px;
+    letter-spacing: 1px;
+    line-height: 1.5;
+}
+
+.contacts-list li::marker {
+    content: none;
+}
+
+.contacts-list svg {
+    position: relative;
+    top: 5px;
+    width: 25px;
+    fill: #fff;
+}
+
+.contact-item:nth-child(odd) {
+    margin-bottom: 15px;
+}
+
+.contact-link {
+    color: #9348de;
+}
+
+.contact-link:hover {
+    text-decoration: underline;
+}
