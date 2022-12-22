@@ -95,6 +95,7 @@ p {
     background: linear-gradient(130deg, #1A0B2E80 20%, #25104380 65%, #30115C80 90%, #38126D80 105%, #26104580 160%, #19063480 180%);
     border-radius: 30px;
     border: 1px solid #7127BA;
+    scroll-margin-top: 80px;
 }
 
 .main-section-block h2 {
